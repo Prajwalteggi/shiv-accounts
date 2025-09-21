@@ -1,0 +1,24 @@
+{
+  "name": "shiv-acc",
+  "version": "1.0.0",
+  "description": "A comprehensive accounting management system",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "frontend": "node start.js",
+    "dev": "concurrently \"npm run start\" \"npm run frontend\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["accounting", "management", "finance", "business"],
+  "author": "Shiv Accounting Team",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0",
+    "pg": "^8.16.3"
+  },
+  "devDependencies": {
+    "concurrently": "^7.6.0"
+  }
+}
